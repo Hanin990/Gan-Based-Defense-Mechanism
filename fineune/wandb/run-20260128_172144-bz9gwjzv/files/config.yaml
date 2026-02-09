@@ -1,0 +1,89 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            km2zc0sq9cwhytukt9f5o1nyzu6fm2eq:
+                codePath: Gan-Based-Defense-Mechanism/fineune/finetune.py
+                codePathLocal: finetune.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "262240792576"
+                        used: "115213250560"
+                email: hanin@pdx.edu
+                executable: /root/miniconda3/envs/myenv/bin/python
+                git:
+                    commit: d0ecbf76aac3ae9a65bc12d8ef8dbbf7ff5ecef7
+                    remote: https://github.com/gradient-ai/PyTorch.git
+                gpu: Quadro P5000
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 2560
+                      memoryTotal: "17179869184"
+                      name: Quadro P5000
+                      uuid: GPU-6755b249-10ec-4a5a-7b71-d63aca3b72b3
+                host: neb2red6wd
+                memory:
+                    total: "31528714240"
+                os: Linux-5.19.0-45-generic-x86_64-with-glibc2.10
+                program: finetune.py
+                python: CPython 3.8.0
+                root: /notebooks/Gan-Based-Defense-Mechanism/fineune
+                startedAt: "2026-01-28T17:21:44.656743Z"
+                writerId: km2zc0sq9cwhytukt9f5o1nyzu6fm2eq
+        m: []
+        python_version: 3.8.0
+        t:
+            "1":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 100
+            "2":
+                - 1
+                - 11
+                - 49
+                - 51
+                - 100
+            "3":
+                - 16
+            "4": 3.8.0
+            "5": 0.24.0
+            "6": 4.25.1
+            "12": 0.24.0
+            "13": linux-x86_64
+ckpt_path:
+    value: null
+data_path:
+    value: /notebooks/Gan-Based-Defense-Mechanism/data/hard-1/final_data.csv
+dataset:
+    value: custom_dataset_arabert_hard_128
+entity:
+    value: null
+eval_batch_size:
+    value: 64
+lr:
+    value: 3e-05
+max_length:
+    value: 128
+mode:
+    value: train
+model_name:
+    value: aubmindlab/bert-base-arabertv2
+num_epochs:
+    value: 5
+num_labels:
+    value: 2
+num_workers:
+    value: 4
+project:
+    value: null
+tags:
+    value:
+        - finetune
+train_batch_size:
+    value: 64
