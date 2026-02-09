@@ -1,6 +1,6 @@
-# InfoGAN-based Defense Mehcanism
+# InfoGAN-based Defense Mehcanism for Arabic text classification Models
 
-A defense mechanism against adversarial attacks on NLP text classification models using InfoGAN-based embedding reconstruction.
+A defense mechanism against adversarial attacks on NLP Arabic text classification models (Arabert) using InfoGAN-based embedding reconstruction.
 
 ## Overview
 
