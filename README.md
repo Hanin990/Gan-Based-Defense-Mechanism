@@ -4,7 +4,7 @@ A defense mechanism against adversarial attacks on NLP Arabic text classificatio
 
 ## Overview
 
-This repository implements the **InfoGAN-based Defense Mehcanism** approach for defending transformer-based text classifiers against adversarial examples. The defense leverages InfoGAN generative models to reconstruct perturbed embeddings back onto the learned textual manifold, effectively neutralizing adversarial perturbations.
+This repository implements the **InfoGAN-based Defense Mehcanism** approach for defending transformer-based text classifiers against adversarial examples for Arabic models. The defense leverages InfoGAN generative models to reconstruct perturbed embeddings back onto the learned textual manifold, effectively neutralizing adversarial perturbations.
 
 Based on the research: *"Textual Manifold-based Defense Against Natural Language Adversarial Examples"*
 
