@@ -1,10 +1,10 @@
-# InfoGAN-based Textual Manifold Defense (TMD)
+# InfoGAN-based Defense Mehcanism
 
 A defense mechanism against adversarial attacks on NLP text classification models using InfoGAN-based embedding reconstruction.
 
 ## Overview
 
-This repository implements the **Textual Manifold-based Defense (TMD)** approach for defending transformer-based text classifiers against adversarial examples. The defense leverages InfoGAN generative models to reconstruct perturbed embeddings back onto the learned textual manifold, effectively neutralizing adversarial perturbations.
+This repository implements the **InfoGAN-based Defense Mehcanism** approach for defending transformer-based text classifiers against adversarial examples. The defense leverages InfoGAN generative models to reconstruct perturbed embeddings back onto the learned textual manifold, effectively neutralizing adversarial perturbations.
 
 Based on the research: *"Textual Manifold-based Defense Against Natural Language Adversarial Examples"*
 
